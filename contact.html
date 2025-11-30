@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  background-color: #0000ff; 
+}
+
+nav li {
+  display: inline-block; 
+}
+
+nav a {
+  display: block; 
+  color: #ffffff; 
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none; 
+}
+
+nav a:hover {
+  background-color: #dddddd; 
+}
+ body{
+         background-image: url(bac3.jpg);
+         margin: 0px;
+         background-position: center;
+         background-attachment: local;
+         background-size: cover;
+    
+      }
+      .p1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #dddddd;
+        font: size 30px;
+        font-style: italic;
+        text-align: center;
+      }
+
+      header{       
+        color: #ffffff;
+        text-align: center;
+      }
+      .form{
+        color: #ffffff;
+        font-size: large;
+    
+        
+      }
+
+     
+    </style>
+</head>
+<body>
+ 
+<nav>
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="Produits.html">Produits</a></li>
+    <li><a href="Apropos.html">À propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+ <p class="p1">Remplit ce formulaire pour vous inscrire dans notre base de données.<br>
+  ========================= <br>
+  Telephone+509 37326563 <br>
+E-mail : jeankinsond@gmail.com <br>
+www.jeankinsonduperoy.com
+</p>
+<footer class="form">
+    <form action="/traiment obligatoires" method="post"> 
+        <label for="Nom">Nom:</label>
+        <input type="text"name="Nom" placeholder="Rentrer votre Nom" required>
+        <br><br>
+
+        <label for="Prenom">Prénom:</label>
+        <input type="text" Prenom="Prénom" placeholder="Rentrer votre prénom" required>
+        <br><br>
+
+        <p>Choisir notre sexe</p>
+        <input type="radio" value="fi" name="personne"required> F
+        <input type="radio" value="gacon" name="personne" required> M<br>
+
+        <label for="date">Date de naissance :</label>
+        <input type="date" id="datetime" name="naissance" min="1925-01-01" max="2025-11-03">
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Rentre votre email"required>
+        <br><br>
+
+        <label for="phone">Téléphone:</label>
+        <input   id="phone"  name="phone" type="tel" placeholder="+509" required    maxlength="12"   pattern="^\+509[0-9]{8}$"/>
+     
+        <br><br>
+        
+        
+        <label for="reset"></label>
+        <input type="reset" value="Eface"> <br><br>
+                
+
+        <textarea cols="20" rows="10" placeholder="Donnez votre objectif"></textarea>
+        <br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+                
+					<hr>
+</footer>
+
+<header>
+      <button onclick="location. href='Apropos.html' ">Contact</button>
+      <button onclick="location. href='index.html' ">Accueil</button>
+		<h6>
+      &copy; 1er partie cours 3 CSS <br> 
+      &copy;Tout droit reserver <br>
+      &copy; Jeankinson Duperoy
+    </h6> 	
+	</header>
+</body>
+</html>
